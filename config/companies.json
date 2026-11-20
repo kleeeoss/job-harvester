@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Modal Labs",
+    "slug": "modal",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Cloud Infrastructure & High-Performance Compute"
+  },
+  {
+    "name": "Sarvam AI",
+    "slug": "sarvam",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Sovereign AI Foundation Models & Systems"
+  },
+  {
+    "name": "Perplexity AI",
+    "slug": "perplexity",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Conversational Search Engine & Systems"
+  },
+  {
+    "name": "Supabase",
+    "slug": "supabase",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Open Source Backend & Distributed Database"
+  },
+  {
+    "name": "Cursor / Anysphere",
+    "slug": "cursor",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "AI Developer Environments & Runtimes"
+  },
+  {
+    "name": "Linear",
+    "slug": "linear",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "High-Performance Systems & Developer Tools"
+  },
+  {
+    "name": "Replit",
+    "slug": "replit",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Containerized Cloud Development Environments"
+  },
+  {
+    "name": "Cohere",
+    "slug": "cohere",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Enterprise Large Language Models & Distributed Inference"
+  },
+  {
+    "name": "Baseten",
+    "slug": "baseten",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Machine Learning Model Serving & Cloud Infrastructure"
+  },
+  {
+    "name": "Anyscale",
+    "slug": "anyscale",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Distributed Ray Computing & ML Infrastructure"
+  },
+  {
+    "name": "Atlan",
+    "slug": "atlan",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Active Metadata Platform & Data Systems"
+  },
+  {
+    "name": "Razorpay",
+    "slug": "razorpaysoftwareprivatelimited",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Fintech & High-Throughput Payment Gateways"
+  },
+  {
+    "name": "Groww",
+    "slug": "groww",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Fintech & Investment Systems"
+  },
+  {
+    "name": "InMobi",
+    "slug": "inmobi",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "AdTech & Distributed Data Platforms"
+  },
+  {
+    "name": "Harness",
+    "slug": "harnessinc",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "CI/CD & Intelligent Software Delivery Platform"
+  },
+  {
+    "name": "Rubrik",
+    "slug": "rubrik",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Zero Trust Data Security & Cloud Systems"
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Distributed Database Systems & Cloud Services"
+  },
+  {
+    "name": "BrowserStack",
+    "slug": "browserstack",
+    "ats": "lever",
+    "is_top_tier": true,
+    "domain": "Cloud Infrastructure & Testing Platform"
+  },
+  {
+    "name": "Postman",
+    "slug": "postman",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "API Platform & Developer Tooling"
+  },
+  {
+    "name": "Zepto",
+    "slug": "zepto",
+    "ats": "lever",
+    "is_top_tier": true,
+    "domain": "Quick Commerce Logistics & Real-Time Dispatch"
+  },
+  {
+    "name": "Swiggy",
+    "slug": "swiggy",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Hyperlocal Delivery Logistics & Systems"
+  },
+  {
+    "name": "Cred",
+    "slug": "cred",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "High-Trust Financial Products & Distributed Backend"
+  },
+  {
+    "name": "Zerodha",
+    "slug": "zerodha",
+    "ats": "lever",
+    "is_top_tier": true,
+    "domain": "Low-Latency Brokerage Systems & Open Source Infra"
+  }
+]
