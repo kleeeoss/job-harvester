@@ -1,4 +1,4 @@
-# 🎯 Job Harvester V3 Engine — Internet-Scale Harvest & Strict Tiering
+# Job Harvester V3 Engine — Internet-Scale Harvest & Strict Tiering
 
 An automated, high-throughput, invariant-enforcing job and internship harvester tailored specifically for **Garv Vaidya** (B.Tech CSE, Class of 2027, Hitkarini College of Engineering and Technology Jabalpur, CGPA 7.17).
 
@@ -6,7 +6,7 @@ Built with **Zero Overhead / $0.00 Cost**: Concurrently queries public JSON APIs
 
 ---
 
-## 🛡️ Enforced Invariants (`RULE[user_global]`)
+## Enforced Invariants (`RULE[user_global]`)
 
 1. **Strictly Direct Requisition Endpoints**:
    - Zero generic career homepages (e.g. `company.com/careers` or `amazon.jobs`). Every listed position points directly to an active ATS requisition (`jobs.ashbyhq.com/...`, `job-boards.greenhouse.io/...`, `jobs.lever.co/...`) or a verified founder contact (`mailto:`).
@@ -40,7 +40,7 @@ Built with **Zero Overhead / $0.00 Cost**: Concurrently queries public JSON APIs
 
 ---
 
-## 🏗️ Architecture & Ingestion Streams
+## Architecture & Ingestion Streams
 
 ### 11 Public ATS Resolvers
 - **Ashby** (`engine/resolvers/ashby.py`): Public job board JSON API with compensation extraction
@@ -68,7 +68,7 @@ Built with **Zero Overhead / $0.00 Cost**: Concurrently queries public JSON APIs
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Job Harvester/
@@ -106,7 +106,7 @@ Job Harvester/
 
 ---
 
-## ⚡ Quick Start & Usage
+## Quick Start & Usage
 
 ### 1. Setup Virtual Environment
 ```bash
