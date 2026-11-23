@@ -1,5 +1,5 @@
 import pytest
-from engine.analyzer.location import check_location
+from engine.analyzer.geo_filter import check_location
 
 def test_accept_india_onsite():
     loc = "Bengaluru, Karnataka, India"
@@ -78,4 +78,70 @@ def test_accept_global_remote_unrestricted():
     valid, loc_type, reason = check_location(loc, text)
     assert valid
     assert "worldwide" in loc_type.lower() or "global" in loc_type.lower()
+
+def test_reject_foreign_regional_remotes():
+    # Foreign locations tagged with (Remote) must be rejected because candidate lacks foreign work authorization
+    foreign_remotes = [
+        "Toronto (Remote)",
+        "Paris (Remote)",
+        "Ottawa (Remote)",
+        "Stockholm (Remote)",
+        "Korea (Remote)",
+        "Middle East (Remote)",
+        "Tokyo (Remote)",
+        "Sydney (Remote)",
+        "Remote - Orlando, Florida",
+        "Remote - Cincinnati, Ohio",
+        "Madrid (Remote)",
+        "San Mateo (Remote)",
+        "Remote - US",
+        "Remote - North America",
+        "Remote - EMEA",
+        "Ontario (Remote)",
+        "Quebec (Remote)",
+        "Remote, KSA",
+        "Remote, Saudi",
+        "Remote, UAE",
+        "Middle East (Remote)",
+        "Lisbon (Remote)",
+        "Espoo (Remote)",
+    ]
+    for loc in foreign_remotes:
+        valid, loc_type, reason = check_location(loc)
+        assert not valid, f"Expected {loc} to be rejected"
+        assert "restricted" in reason.lower() or "foreign" in reason.lower()
+
+def test_accept_multi_location_with_india():
+    loc = "San Francisco, CA / Bengaluru, India"
+    valid, loc_type, reason = check_location(loc)
+    assert valid
+    assert "india" in loc_type.lower()
+
+def test_accept_remote_in_as_india():
+    # 'IN' is ISO code for India and should NOT be rejected as Indiana
+    for loc in ["Remote, IN", "Remote / IN", "Remote - IN", "Bengaluru, IN"]:
+        valid, loc_type, reason = check_location(loc)
+        assert valid, f"Expected '{loc}' to be valid India location"
+        assert "india" in loc_type.lower()
+
+def test_reject_indianapolis_and_in_office_false_positives():
+    # Indianapolis, IN is in Indiana (US) and should NOT be classified as India
+    valid, loc_type, reason = check_location("Indianapolis, IN")
+    assert not valid
+    assert "foreign" in reason.lower() or "us" in reason.lower() or "on-site" in loc_type.lower()
+    assert "india" not in loc_type.lower()
+
+    # 'New York, in-office' should NOT trigger India
+    valid_ny, loc_type_ny, _ = check_location("New York, in-office")
+    assert "india" not in loc_type_ny.lower()
+
+    # 'Remote - in US' should NOT trigger India
+    valid_us, loc_type_us, _ = check_location("Remote - in US")
+    assert "india" not in loc_type_us.lower()
+
+def test_accept_apac_only_for_india_or_global():
+    # India is part of APAC, so APAC only should not be hard-dropped
+    valid, loc_type, reason = check_location("Remote (APAC)", "Role open to APAC candidates")
+    assert valid, f"Expected 'Remote (APAC)' to be valid, got: {reason}"
+
 

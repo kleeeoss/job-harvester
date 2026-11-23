@@ -18,6 +18,7 @@ def parse_greenhouse_payload(company_slug: str, data: Dict[str, Any]) -> List[Jo
         description_text = clean_text(description_raw)
 
         is_internship = bool(re.search(r'\b(interns?|internships?|co-op|trainee)\b', title, re.I))
+        posted_date = str(item.get("updated_at") or item.get("first_published") or "")
 
         jobs.append(JobRequisition(
             id=job_id,
@@ -27,7 +28,8 @@ def parse_greenhouse_payload(company_slug: str, data: Dict[str, Any]) -> List[Jo
             apply_url=apply_url,
             description_text=description_text,
             is_internship=is_internship,
-            ats="Greenhouse"
+            ats="Greenhouse",
+            posted_date=posted_date
         ))
     return jobs
 

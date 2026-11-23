@@ -27,12 +27,26 @@ def test_tier_internship_20k_to_30k():
     assert tier == PayTier.INTERN_20K_30K
     assert "25,000" in comp_str
 
-def test_tier_internship_30k_to_50k():
-    text = "AI/ML Engineering Intern. Stipend: ₹45,000/month."
+def test_tier_internship_30k_to_40k():
+    text = "AI/ML Engineering Intern. Stipend: ₹35,000/month."
     valid, tier, comp_str, reason = parse_compensation(text, is_internship=True)
     assert valid
-    assert tier == PayTier.INTERN_30K_50K
+    assert tier == PayTier.INTERN_30K_40K
+    assert "35,000" in comp_str
+
+def test_tier_internship_40k_to_50k():
+    text = "Distributed Systems Intern. Stipend: ₹45,000/month."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=True)
+    assert valid
+    assert tier == PayTier.INTERN_40K_50K
     assert "45,000" in comp_str
+
+def test_unlisted_stipend_venture_backed():
+    text = "Software Engineering Intern at high growth AI startup. Competitive stipend."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=True)
+    assert valid
+    assert tier == PayTier.INTERN_UNLISTED
+    assert "unlisted" in comp_str.lower() or "venture-backed" in comp_str.lower()
 
 def test_reject_sub_10_lpa_job():
     text = "Junior Backend Developer. Salary range: 5 to 7 LPA based on performance."
@@ -54,16 +68,65 @@ def test_tier_job_15_to_30_lpa():
     assert tier == PayTier.JOB_15_30_LPA
     assert "22" in comp_str
 
-def test_tier_job_30_to_60_lpa():
+def test_tier_job_30_to_45_lpa():
+    text = "Cloud Infrastructure Engineer. Salary: 35 - 40 LPA."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=False)
+    assert valid
+    assert tier == PayTier.JOB_30_45_LPA
+    assert "35" in comp_str
+
+def test_tier_job_45_to_60_lpa():
     text = "Senior Cloud Architect. Base pay 45 LPA to 55 LPA."
     valid, tier, comp_str, reason = parse_compensation(text, is_internship=False)
     assert valid
-    assert tier == PayTier.JOB_30_60_LPA
+    assert tier == PayTier.JOB_45_60_LPA
     assert "45" in comp_str
 
 def test_unlisted_salary_venture_backed():
     text = "Software Engineer at Series A AI startup. Competitive equity package and market salary."
     valid, tier, comp_str, reason = parse_compensation(text, is_internship=False)
     assert valid
-    assert tier == PayTier.UNLISTED
+    assert tier == PayTier.JOB_UNLISTED
     assert "unlisted" in comp_str.lower() or "venture-backed" in comp_str.lower()
+
+def test_tier_internship_k_notation():
+    text = "Software Engineering Intern. Stipend: 25k/month for 6 months."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=True)
+    assert valid
+    assert tier == PayTier.INTERN_20K_30K
+    assert "25,000" in comp_str
+
+def test_tier_internship_k_notation_35k():
+    text = "Backend Systems Intern. Stipend is 35k pm."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=True)
+    assert valid
+    assert tier == PayTier.INTERN_30K_40K
+    assert "35,000" in comp_str
+
+def test_tier_job_usd_annual_full():
+    text = "Full Stack Engineer. Base salary: $120,000 - $150,000 / year."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=False)
+    assert valid
+    assert tier == PayTier.JOB_45_60_LPA
+    assert "120,000" in comp_str
+
+def test_tier_job_hourly_rate():
+    text = "Systems Developer. Pay is $50/hr for full time work."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=False)
+    assert valid
+    assert tier == PayTier.JOB_45_60_LPA
+    assert "50" in comp_str
+
+def test_tier_job_lakhs_notation():
+    text = "Software Engineer. Compensation: 16 - 20 Lakhs per annum."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=False)
+    assert valid
+    assert tier == PayTier.JOB_15_30_LPA
+    assert "16" in comp_str
+
+def test_ignore_funding_round_numbers():
+    text = "We just raised a $500k seed round and are hiring our founding software engineer."
+    valid, tier, comp_str, reason = parse_compensation(text, is_internship=False)
+    assert valid
+    assert tier == PayTier.JOB_UNLISTED
+    assert "unlisted" in comp_str.lower()

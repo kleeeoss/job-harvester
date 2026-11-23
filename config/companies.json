@@ -53,91 +53,1008 @@
     "slug": "cohere",
     "ats": "ashby",
     "is_top_tier": true,
-    "domain": "Enterprise Large Language Models & Distributed Inference"
+    "domain": "Enterprise LLMs & Distributed Inference"
   },
   {
     "name": "Baseten",
     "slug": "baseten",
     "ats": "ashby",
-    "is_top_tier": true,
-    "domain": "Machine Learning Model Serving & Cloud Infrastructure"
+    "is_top_tier": false,
+    "domain": "ML Model Serving & Cloud Infrastructure"
   },
   {
     "name": "Anyscale",
     "slug": "anyscale",
     "ats": "ashby",
-    "is_top_tier": true,
+    "is_top_tier": false,
     "domain": "Distributed Ray Computing & ML Infrastructure"
   },
   {
-    "name": "Atlan",
-    "slug": "atlan",
+    "name": "Together AI",
+    "slug": "togetherai",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Decentralized Cloud for AI Models"
+  },
+  {
+    "name": "Fireworks AI",
+    "slug": "fireworks",
     "ats": "ashby",
     "is_top_tier": true,
-    "domain": "Active Metadata Platform & Data Systems"
+    "domain": "Generative AI Inference Platform"
   },
   {
-    "name": "Razorpay",
-    "slug": "razorpaysoftwareprivatelimited",
+    "name": "Mistral AI",
+    "slug": "mistral.ai",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Open Foundation Models"
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Voice AI Research & Deployment"
+  },
+  {
+    "name": "Runway",
+    "slug": "runwayml",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Multimodal AI Systems"
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "AI Video Generation Platform"
+  },
+  {
+    "name": "Pinecone",
+    "slug": "pinecone",
     "ats": "greenhouse",
     "is_top_tier": true,
-    "domain": "Fintech & High-Throughput Payment Gateways"
+    "domain": "Vector Database for Machine Learning"
   },
   {
-    "name": "Groww",
-    "slug": "groww",
+    "name": "Weaviate",
+    "slug": "weaviate",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Open-Source Vector Search Engine"
+  },
+  {
+    "name": "Qdrant",
+    "slug": "qdrant",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Vector Search Engine & Database"
+  },
+  {
+    "name": "Chroma",
+    "slug": "chroma",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Open-Source AI Embedding Database"
+  },
+  {
+    "name": "Render",
+    "slug": "render",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Unified Cloud Hosting & Microservices"
+  },
+  {
+    "name": "Railway",
+    "slug": "railway",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Infrastructure Platform for Deployments"
+  },
+  {
+    "name": "Fly.io",
+    "slug": "flyio",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Global Application Platform & MicroVMs"
+  },
+  {
+    "name": "Resend",
+    "slug": "resend",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Modern Email API for Developers"
+  },
+  {
+    "name": "Axiom",
+    "slug": "axiom",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Serverless Log Analytics Platform"
+  },
+  {
+    "name": "LangChain",
+    "slug": "langchain",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "LLM Framework & Developer Tools"
+  },
+  {
+    "name": "LlamaIndex",
+    "slug": "llamaindex",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Data Framework for LLM Applications"
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel",
     "ats": "greenhouse",
     "is_top_tier": true,
-    "domain": "Fintech & Investment Systems"
+    "domain": "Frontend Cloud & Edge Infrastructure"
   },
   {
-    "name": "InMobi",
-    "slug": "inmobi",
+    "name": "Neon",
+    "slug": "neon",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Serverless Server-Separated Postgres"
+  },
+  {
+    "name": "PlanetScale",
+    "slug": "planetscale",
     "ats": "greenhouse",
     "is_top_tier": true,
-    "domain": "AdTech & Distributed Data Platforms"
+    "domain": "Serverless MySQL Database Platform"
   },
   {
-    "name": "Harness",
-    "slug": "harnessinc",
+    "name": "Turso",
+    "slug": "turso",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Edge SQLite Distributed Database"
+  },
+  {
+    "name": "ClickHouse",
+    "slug": "clickhouse",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Real-Time Column-Oriented Database"
+  },
+  {
+    "name": "Meilisearch",
+    "slug": "meilisearch",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Fast Open Source Search Engine"
+  },
+  {
+    "name": "Typesense",
+    "slug": "typesense",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "In-Memory Typo-Tolerant Search Engine"
+  },
+  {
+    "name": "Temporal",
+    "slug": "temporaltechnologies",
     "ats": "greenhouse",
     "is_top_tier": true,
-    "domain": "CI/CD & Intelligent Software Delivery Platform"
+    "domain": "Durable Execution Orchestrator"
   },
   {
-    "name": "Rubrik",
-    "slug": "rubrik",
+    "name": "Datadog",
+    "slug": "datadog",
     "ats": "greenhouse",
     "is_top_tier": true,
-    "domain": "Zero Trust Data Security & Cloud Systems"
+    "domain": "Cloud Observability & Security Platform"
   },
   {
-    "name": "MongoDB",
-    "slug": "mongodb",
+    "name": "Cloudflare",
+    "slug": "cloudflare",
     "ats": "greenhouse",
     "is_top_tier": true,
-    "domain": "Distributed Database Systems & Cloud Services"
+    "domain": "Global Edge Network & CDN Infrastructure"
   },
   {
-    "name": "BrowserStack",
-    "slug": "browserstack",
-    "ats": "lever",
+    "name": "Tailscale",
+    "slug": "tailscale",
+    "ats": "ashby",
     "is_top_tier": true,
-    "domain": "Cloud Infrastructure & Testing Platform"
+    "domain": "Zero Config Mesh VPN on WireGuard"
   },
   {
-    "name": "Postman",
-    "slug": "postman",
+    "name": "Pulumi",
+    "slug": "pulumi",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Infrastructure as Code Platform"
+  },
+  {
+    "name": "Sentry",
+    "slug": "sentry",
     "ats": "greenhouse",
     "is_top_tier": true,
-    "domain": "API Platform & Developer Tooling"
+    "domain": "Application Performance & Error Tracking"
   },
   {
-    "name": "Zepto",
-    "slug": "zepto",
-    "ats": "lever",
+    "name": "PostHog",
+    "slug": "posthog",
+    "ats": "ashby",
     "is_top_tier": true,
-    "domain": "Quick Commerce Logistics & Real-Time Dispatch"
+    "domain": "Open-Source Product Analytics & Feature Flags"
+  },
+  {
+    "name": "Grafana Labs",
+    "slug": "grafanalabs",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Open Observability Platform"
+  },
+  {
+    "name": "Sourcegraph",
+    "slug": "sourcegraph",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Code Intelligence & AI Assistant"
+  },
+  {
+    "name": "GitLab",
+    "slug": "gitlab",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "The DevSecOps Platform"
+  },
+  {
+    "name": "Automattic",
+    "slug": "automattic",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Open Source Web Publishing & Tools"
+  },
+  {
+    "name": "DuckDuckGo",
+    "slug": "duckduckgo",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Privacy-Focused Search & Browser"
+  },
+  {
+    "name": "Brave",
+    "slug": "brave",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Privacy-First Web Browser & Search"
+  },
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Financial Infrastructure for the Internet"
+  },
+  {
+    "name": "OpenAI",
+    "slug": "openai",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "AI Research & Deployment"
+  },
+  {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "AI Safety & Research"
+  },
+  {
+    "name": "Hugging Face",
+    "slug": "huggingface",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "The AI Community & Model Repository"
+  },
+  {
+    "name": "Scale AI",
+    "slug": "scaleai",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Data Infrastructure for AI"
+  },
+  {
+    "name": "Weights & Biases",
+    "slug": "wandb",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "ML Developer Tools & Experiment Tracking"
+  },
+  {
+    "name": "CoreWeave",
+    "slug": "coreweave",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Specialized Cloud for Large Scale GPU Workloads"
+  },
+  {
+    "name": "Lambda Labs",
+    "slug": "lambdalabs",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Deep Learning Cloud & Infrastructure"
+  },
+  {
+    "name": "Crusoe Cloud",
+    "slug": "crusoe",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Climate-Aligned Cloud Compute & Data Centers"
+  },
+  {
+    "name": "Groq",
+    "slug": "groq",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "LPU Inference Engine for Fast LLMs"
+  },
+  {
+    "name": "Cerebras",
+    "slug": "cerebras",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Wafer-Scale AI Compute Systems"
+  },
+  {
+    "name": "dbt Labs",
+    "slug": "dbtlabs",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Data Transformation & Analytics Engineering"
+  },
+  {
+    "name": "Confluent",
+    "slug": "confluent",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Real-Time Data Streaming & Apache Kafka"
+  },
+  {
+    "name": "Redpanda",
+    "slug": "redpanda",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Simple, Powerful Streaming Data Platform"
+  },
+  {
+    "name": "Cockroach Labs",
+    "slug": "cockroachlabs",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Distributed SQL Database Architecture"
+  },
+  {
+    "name": "Yugabyte",
+    "slug": "yugabyte",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Distributed PostgreSQL for Cloud Native Apps"
+  },
+  {
+    "name": "PingCAP",
+    "slug": "pingcap",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Distributed Hybrid Transactional/Analytical DB"
+  },
+  {
+    "name": "Deno",
+    "slug": "deno",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Modern Runtime for JavaScript & TypeScript"
+  },
+  {
+    "name": "Astral",
+    "slug": "astral",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "High-Performance Python Tooling (uv, ruff)"
+  },
+  {
+    "name": "Clerk",
+    "slug": "clerk",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "User Management & Authentication Platform"
+  },
+  {
+    "name": "WorkOS",
+    "slug": "workos",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Enterprise Ready Features & Auth API"
+  },
+  {
+    "name": "Infisical",
+    "slug": "infisical",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Open-Source Secret Management Platform"
+  },
+  {
+    "name": "Chainguard",
+    "slug": "chainguard",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Software Supply Chain Security"
+  },
+  {
+    "name": "Wiz",
+    "slug": "wiz",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Cloud Security Platform"
+  },
+  {
+    "name": "Snyk",
+    "slug": "snyk",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Developer Security Platform"
+  },
+  {
+    "name": "Teleport",
+    "slug": "teleport",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Identity-Native Infrastructure Access"
+  },
+  {
+    "name": "Kong",
+    "slug": "kong",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Cloud-Native API Gateway & Service Mesh"
+  },
+  {
+    "name": "Solo.io",
+    "slug": "soloio",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Cloud-Native Application Networking"
+  },
+  {
+    "name": "Isovalent",
+    "slug": "isovalent",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "eBPF-Powered Cloud Networking & Security"
+  },
+  {
+    "name": "Sysdig",
+    "slug": "sysdig",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Cloud-Native Security & Visibility"
+  },
+  {
+    "name": "Chronosphere",
+    "slug": "chronosphere",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Cloud-Native Observability Platform"
+  },
+  {
+    "name": "Honeycomb",
+    "slug": "honeycomb",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Observability for Distributed Systems"
+  },
+  {
+    "name": "Cribl",
+    "slug": "cribl",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Observability Pipeline & Data Engine"
+  },
+  {
+    "name": "MotherDuck",
+    "slug": "motherduck",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Serverless DuckDB Cloud Analytics"
+  },
+  {
+    "name": "Airbyte",
+    "slug": "airbyte",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Open-Source Data Integration Engine"
+  },
+  {
+    "name": "Fivetran",
+    "slug": "fivetran",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Automated Data Movement Platform"
+  },
+  {
+    "name": "RudderStack",
+    "slug": "rudderstack",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Customer Data Platform for Developers"
+  },
+  {
+    "name": "Census",
+    "slug": "census",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Reverse ETL & Data Activation Platform"
+  },
+  {
+    "name": "Hightouch",
+    "slug": "hightouch",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Data Activation & Composable CDP"
+  },
+  {
+    "name": "Monte Carlo",
+    "slug": "montecarlodata",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Data Observability & Reliability Platform"
+  },
+  {
+    "name": "Prefect",
+    "slug": "prefect",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Dataflow Orchestration & Automation"
+  },
+  {
+    "name": "Astronomer",
+    "slug": "astronomer",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Modern Data Orchestration with Airflow"
+  },
+  {
+    "name": "Inngest",
+    "slug": "inngest",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Event-Driven Background Jobs & Workflows"
+  },
+  {
+    "name": "Trigger.dev",
+    "slug": "triggerdev",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Developer-First Background Jobs Framework"
+  },
+  {
+    "name": "Windmill",
+    "slug": "windmill",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Open-Source Developer Platform for Scripts & Workflows"
+  },
+  {
+    "name": "Retool",
+    "slug": "retool",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Internal Tool Building Platform"
+  },
+  {
+    "name": "Appsmith",
+    "slug": "appsmith",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Open Source Internal App Builder"
+  },
+  {
+    "name": "Warp",
+    "slug": "warp",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Rust-Based Modern Intelligent Terminal"
+  },
+  {
+    "name": "Raycast",
+    "slug": "raycast",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Blazingly Fast Extensible Launcher"
+  },
+  {
+    "name": "LaunchDarkly",
+    "slug": "launchdarkly",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Feature Management & Experimentation Platform"
+  },
+  {
+    "name": "Statsig",
+    "slug": "statsig",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Feature Flags & Product Experimentation"
+  },
+  {
+    "name": "LiveKit",
+    "slug": "livekit",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Real-Time WebRTC Audio & Video Infrastructure"
+  },
+  {
+    "name": "Daily",
+    "slug": "daily",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Real-Time Video & Audio APIs"
+  },
+  {
+    "name": "Upstash",
+    "slug": "upstash",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Serverless Data Platform (Redis, Kafka, QStash)"
+  },
+  {
+    "name": "Dragonfly",
+    "slug": "dragonflydb",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Modern In-Memory Replacement for Redis & Memcached"
+  },
+  {
+    "name": "Momento",
+    "slug": "gomomento",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Serverless Cache & Pub/Sub Platform"
+  },
+  {
+    "name": "Timescale",
+    "slug": "timescale",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Time-Series Data & Analytics on PostgreSQL"
+  },
+  {
+    "name": "InfluxData",
+    "slug": "influxdata",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Time Series Database Platform"
+  },
+  {
+    "name": "SingleStore",
+    "slug": "singlestore",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Real-Time Distributed SQL Database"
+  },
+  {
+    "name": "ScyllaDB",
+    "slug": "scylladb",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Ultra-Low Latency NoSQL Database"
+  },
+  {
+    "name": "NetBird",
+    "slug": "netbird",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Zero Trust Networking Platform"
+  },
+  {
+    "name": "ZeroTier",
+    "slug": "zerotier",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Global Decentralized Network Virtualization"
+  },
+  {
+    "name": "Twingate",
+    "slug": "twingate",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Zero Trust Remote Access Platform"
+  },
+  {
+    "name": "Fastly",
+    "slug": "fastly",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Edge Cloud Network & Programmable Compute"
+  },
+  {
+    "name": "Traefik Labs",
+    "slug": "traefiklabs",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Cloud Native Application Networking & Proxies"
+  },
+  {
+    "name": "Buoyant",
+    "slug": "buoyant",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Creators of Linkerd Service Mesh"
+  },
+  {
+    "name": "Aqua Security",
+    "slug": "aquasecurity",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Cloud Native Security & Container Protection"
+  },
+  {
+    "name": "New Relic",
+    "slug": "newrelic",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "All-in-One Observability Platform"
+  },
+  {
+    "name": "Sumo Logic",
+    "slug": "sumologic",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "SaaS Log Analytics & Security Intelligence"
+  },
+  {
+    "name": "Mezmo",
+    "slug": "mezmo",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Telemetry Pipeline & Observability Data Platform"
+  },
+  {
+    "name": "Coralogix",
+    "slug": "coralogix",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "In-Stream Data Analytics Platform"
+  },
+  {
+    "name": "StarTree",
+    "slug": "startree",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Real-Time Analytics Platform Powered by Apache Pinot"
+  },
+  {
+    "name": "Imply",
+    "slug": "imply",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Real-Time Analytics Database Powered by Apache Druid"
+  },
+  {
+    "name": "Materialize",
+    "slug": "materialize",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Streaming Database for Real-Time Applications"
+  },
+  {
+    "name": "RisingWave",
+    "slug": "risingwave",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Distributed SQL Streaming Database"
+  },
+  {
+    "name": "Estuary",
+    "slug": "estuary",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Real-Time Streaming Data Integration"
+  },
+  {
+    "name": "Dagster",
+    "slug": "elementl",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Cloud-Native Data Orchestration Framework"
+  },
+  {
+    "name": "Kestra",
+    "slug": "kestra",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Infinitely Scalable Orchestration & Scheduling"
+  },
+  {
+    "name": "Hatchet",
+    "slug": "hatchet",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Distributed Task Queue & Background Job Runner"
+  },
+  {
+    "name": "ToolJet",
+    "slug": "tooljet",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Open-Source Low-Code Framework for Internal Tools"
+  },
+  {
+    "name": "Zed",
+    "slug": "zed",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "High-Performance Multiplayer Code Editor in Rust"
+  },
+  {
+    "name": "Codeium",
+    "slug": "codeium",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "AI-Powered Code Acceleration & Assistance"
+  },
+  {
+    "name": "Cognition",
+    "slug": "cognition",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Autonomous AI Software Engineer (Devin)"
+  },
+  {
+    "name": "Poolside",
+    "slug": "poolside",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "AI Foundation Models for Software Development"
+  },
+  {
+    "name": "Factory",
+    "slug": "factory",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Autonomous Droids for Engineering Teams"
+  },
+  {
+    "name": "GrowthBook",
+    "slug": "growthbook",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Open Source Feature Flagging & A/B Testing"
+  },
+  {
+    "name": "Amplitude",
+    "slug": "amplitude",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Digital Analytics Platform"
+  },
+  {
+    "name": "Mixpanel",
+    "slug": "mixpanel",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Self-Serve Product Analytics for Teams"
+  },
+  {
+    "name": "FullStory",
+    "slug": "fullstory",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Behavioral Data Platform & Session Analytics"
+  },
+  {
+    "name": "LogRocket",
+    "slug": "logrocket",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Frontend Monitoring & Product Experience"
+  },
+  {
+    "name": "OpenReplay",
+    "slug": "openreplay",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Open Source Session Replay & DevTools"
+  },
+  {
+    "name": "Speakeasy",
+    "slug": "speakeasy",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "SDK Generation & API Governance"
+  },
+  {
+    "name": "Stainless",
+    "slug": "stainless",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Production-Grade SDKs for Modern APIs"
+  },
+  {
+    "name": "Fern",
+    "slug": "buildwithfern",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "API Platform for SDKs and Documentation"
+  },
+  {
+    "name": "Svix",
+    "slug": "svix",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Webhooks as a Service for Developers"
+  },
+  {
+    "name": "Convoy",
+    "slug": "convoy",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Fast Multi-Tenant Webhook Gateway"
+  },
+  {
+    "name": "Hookdeck",
+    "slug": "hookdeck",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Event Gateway & Asynchronous Webhook Infra"
+  },
+  {
+    "name": "Novu",
+    "slug": "novu",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Open Source Notification Infrastructure"
+  },
+  {
+    "name": "Knock",
+    "slug": "knock",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Cross-Channel Notification Infrastructure"
+  },
+  {
+    "name": "Courier",
+    "slug": "courier",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Product Notification Platform"
+  },
+  {
+    "name": "Customer.io",
+    "slug": "customerio",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Automated Messaging Platform"
+  },
+  {
+    "name": "Stream",
+    "slug": "stream",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Chat & Activity Feed APIs"
+  },
+  {
+    "name": "Sendbird",
+    "slug": "sendbird",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "In-App Conversations & Chat API"
+  },
+  {
+    "name": "Mux",
+    "slug": "mux",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Video Infrastructure API for Developers"
   },
   {
     "name": "Swiggy",
@@ -147,11 +1064,53 @@
     "domain": "Hyperlocal Delivery Logistics & Systems"
   },
   {
+    "name": "Zepto",
+    "slug": "zepto",
+    "ats": "lever",
+    "is_top_tier": true,
+    "domain": "Quick Commerce Logistics & Real-Time Dispatch"
+  },
+  {
+    "name": "Razorpay",
+    "slug": "razorpaysoftwareprivatelimited",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Fintech & High-Throughput Payment Gateways"
+  },
+  {
+    "name": "PhonePe",
+    "slug": "phonepe",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Digital Payments & Financial Services"
+  },
+  {
+    "name": "Groww",
+    "slug": "groww",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Fintech & Investment Systems"
+  },
+  {
     "name": "Cred",
     "slug": "cred",
     "ats": "greenhouse",
     "is_top_tier": true,
-    "domain": "High-Trust Financial Products & Distributed Backend"
+    "domain": "High-Trust Financial Products & Backend"
+  },
+  {
+    "name": "Meesho",
+    "slug": "meesho",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Social E-commerce & Marketplace Systems"
+  },
+  {
+    "name": "Flipkart",
+    "slug": "flipkart",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "E-Commerce & Supply Chain Logistics"
   },
   {
     "name": "Zerodha",
@@ -159,5 +1118,803 @@
     "ats": "lever",
     "is_top_tier": true,
     "domain": "Low-Latency Brokerage Systems & Open Source Infra"
+  },
+  {
+    "name": "Juspay",
+    "slug": "juspay",
+    "ats": "lever",
+    "is_top_tier": true,
+    "domain": "Payment Infrastructure & Haskell Systems"
+  },
+  {
+    "name": "Postman",
+    "slug": "postman",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "API Platform & Developer Tooling"
+  },
+  {
+    "name": "BrowserStack",
+    "slug": "browserstack",
+    "ats": "lever",
+    "is_top_tier": true,
+    "domain": "Cloud Infrastructure & Testing Platform"
+  },
+  {
+    "name": "Dream11",
+    "slug": "dream11",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "High-Concurrency Sports Tech Platform"
+  },
+  {
+    "name": "Urban Company",
+    "slug": "urbancompany",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Home Services Tech & Dispatch Systems"
+  },
+  {
+    "name": "Blinkit",
+    "slug": "blinkit",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Quick Commerce & Dark Store Automation"
+  },
+  {
+    "name": "Hasura",
+    "slug": "hasura",
+    "ats": "lever",
+    "is_top_tier": true,
+    "domain": "Instant GraphQL APIs & Data Systems"
+  },
+  {
+    "name": "BharatPe",
+    "slug": "bharatpe",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Merchant Payments & Financial Services"
+  },
+  {
+    "name": "Turtlemint",
+    "slug": "turtlemint",
+    "ats": "lever",
+    "is_top_tier": false,
+    "domain": "InsurTech Platform & Brokerage Tech"
+  },
+  {
+    "name": "Darwinbox",
+    "slug": "darwinbox",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Enterprise HR Tech & Cloud Platforms"
+  },
+  {
+    "name": "CleverTap",
+    "slug": "clevertap",
+    "ats": "lever",
+    "is_top_tier": false,
+    "domain": "Customer Engagement & Real-Time Analytics"
+  },
+  {
+    "name": "Chargebee",
+    "slug": "chargebee",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Subscription Billing & Revenue Systems"
+  },
+  {
+    "name": "Freshworks",
+    "slug": "freshworks",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "SaaS Customer Engagement & Cloud CRM"
+  },
+  {
+    "name": "Apna",
+    "slug": "apna",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Jobs & Professional Networking Platform"
+  },
+  {
+    "name": "Ather Energy",
+    "slug": "atherenergy",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "EV Smart Mobility & Vehicle Cloud"
+  },
+  {
+    "name": "Ola",
+    "slug": "ola",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Ride-Hailing & Electric Vehicles"
+  },
+  {
+    "name": "Navi",
+    "slug": "navi",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Digital Lending & Financial Services"
+  },
+  {
+    "name": "slice",
+    "slug": "slice",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Fintech & Consumer Credit Systems"
+  },
+  {
+    "name": "CoinDCX",
+    "slug": "coindcx",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Crypto Trading & High-Frequency Exchange"
+  },
+  {
+    "name": "Khatabook",
+    "slug": "khatabook",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Fintech Utility for MSMEs"
+  },
+  {
+    "name": "Classplus",
+    "slug": "classplus",
+    "ats": "lever",
+    "is_top_tier": false,
+    "domain": "EdTech Infrastructure for Educators"
+  },
+  {
+    "name": "PhysicsWallah",
+    "slug": "physicswallah",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "EdTech Video Streaming & Learning Platforms"
+  },
+  {
+    "name": "Lenskart",
+    "slug": "lenskart",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Omnichannel Eyewear & Supply Chain Systems"
+  },
+  {
+    "name": "Spinny",
+    "slug": "spinny",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Used Car Retail & Inspection Systems"
+  },
+  {
+    "name": "Cars24",
+    "slug": "cars24",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Automotive E-commerce & Logistics"
+  },
+  {
+    "name": "Porter",
+    "slug": "porter",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Intracity Logistics & Real-Time Tracking"
+  },
+  {
+    "name": "Shadowfax",
+    "slug": "shadowfax",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Hyperlocal Logistics Network Systems"
+  },
+  {
+    "name": "Rapido",
+    "slug": "rapido",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Bike Taxi & Auto Dispatch Systems"
+  },
+  {
+    "name": "InMobi",
+    "slug": "inmobi",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "AdTech & Distributed Data Platforms"
+  },
+  {
+    "name": "Harness",
+    "slug": "harnessinc",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "CI/CD & Software Delivery Platform"
+  },
+  {
+    "name": "Rubrik",
+    "slug": "rubrik",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Zero Trust Data Security & Cloud Systems"
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Distributed Database Systems & Cloud Services"
+  },
+  {
+    "name": "Atlan",
+    "slug": "atlan",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Active Metadata Platform & Data Systems"
+  },
+  {
+    "name": "Zeta",
+    "slug": "zeta",
+    "ats": "lever",
+    "is_top_tier": false,
+    "domain": "Next-Gen Banking Technology & Credit Cards"
+  },
+  {
+    "name": "Yellow.ai",
+    "slug": "yellowai",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Enterprise Conversational AI Agents"
+  },
+  {
+    "name": "Sprinklr",
+    "slug": "sprinklr",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Unified Customer Experience Management"
+  },
+  {
+    "name": "Gupshup",
+    "slug": "gupshup",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Conversational Messaging Infrastructure"
+  },
+  {
+    "name": "ShareChat",
+    "slug": "sharechat",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Social Media & Video Discovery Engine"
+  },
+  {
+    "name": "MPL",
+    "slug": "mpl",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Esports & Mobile Gaming Systems"
+  },
+  {
+    "name": "Winzo",
+    "slug": "winzogames",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Interactive Entertainment & Gaming Platform"
+  },
+  {
+    "name": "Upstox",
+    "slug": "upstox",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Low-Latency Stock Trading & Investments"
+  },
+  {
+    "name": "INDmoney",
+    "slug": "indmoney",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Super Money App & Wealth Management"
+  },
+  {
+    "name": "Smallcase",
+    "slug": "smallcase",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Modern Thematic Investment Infrastructure"
+  },
+  {
+    "name": "Fi Money",
+    "slug": "epifi",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Neobanking for Tech Working Professionals"
+  },
+  {
+    "name": "Jupiter",
+    "slug": "jupiter",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "1-for-1 Digital Banking Platform"
+  },
+  {
+    "name": "Pocket FM",
+    "slug": "pocketfm",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Audio Series & Spoken Entertainment Platform"
+  },
+  {
+    "name": "Shiprocket",
+    "slug": "shiprocket",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "E-commerce Shipping & Fulfillment Solutions"
+  },
+  {
+    "name": "Delhivery",
+    "slug": "delhivery",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Supply Chain Services & Express Logistics"
+  },
+  {
+    "name": "BlackBuck",
+    "slug": "blackbuck",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Trucking Network & Digital Freight Platform"
+  },
+  {
+    "name": "Udaan",
+    "slug": "udaan",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "B2B E-commerce for Retailers & Manufacturers"
+  },
+  {
+    "name": "Moglix",
+    "slug": "moglix",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "B2B Industrial Goods Marketplace"
+  },
+  {
+    "name": "OfBusiness",
+    "slug": "ofbusiness",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Raw Materials Procurement & SME Credit"
+  },
+  {
+    "name": "Zetwerk",
+    "slug": "zetwerk",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Custom Manufacturing & Global Supply Chain"
+  },
+  {
+    "name": "Mamaearth",
+    "slug": "mamaearth",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "D2C Personal Care & Commerce Tech"
+  },
+  {
+    "name": "Nykaa",
+    "slug": "nykaa",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Beauty & Fashion E-commerce Platform"
+  },
+  {
+    "name": "Livspace",
+    "slug": "livspace",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Home Interior Design & Renovation Platform"
+  },
+  {
+    "name": "NoBroker",
+    "slug": "nobroker",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Brokerage-Free Real Estate Tech"
+  },
+  {
+    "name": "Practo",
+    "slug": "practo",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Healthcare Services & Doctor Consultation Platform"
+  },
+  {
+    "name": "Tata 1mg",
+    "slug": "tata1mg",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Digital Healthcare & Online Pharmacy"
+  },
+  {
+    "name": "Innovaccer",
+    "slug": "innovaccer",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Health Cloud & Connected Care Framework"
+  },
+  {
+    "name": "Icertis",
+    "slug": "icertis",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Contract Intelligence Platform"
+  },
+  {
+    "name": "Mindtickle",
+    "slug": "mindtickle",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Sales Enablement & Readiness Platform"
+  },
+  {
+    "name": "Whatfix",
+    "slug": "whatfix",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Digital Adoption Platform (DAP)"
+  },
+  {
+    "name": "MoEngage",
+    "slug": "moengage",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Insights-Led Customer Engagement Platform"
+  },
+  {
+    "name": "GreyOrange",
+    "slug": "greyorange",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "AI-Driven Robotics for Fulfillment Centers"
+  },
+  {
+    "name": "Locus",
+    "slug": "locus",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Dispatch Management Platform & Routing Optimization"
+  },
+  {
+    "name": "FarEye",
+    "slug": "fareye",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Last-Mile Delivery Management Platform"
+  },
+  {
+    "name": "Loconav",
+    "slug": "loconav",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Fleet Management & Telematics Platform"
+  },
+  {
+    "name": "Fleetx",
+    "slug": "fleetx",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Intelligent Freight & Fleet Management"
+  },
+  {
+    "name": "Rebel Foods",
+    "slug": "rebelfoods",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Internet Restaurant Network & Cloud Kitchens"
+  },
+  {
+    "name": "CarDekho",
+    "slug": "cardekho",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Auto Tech & Digital Vehicle Marketplace"
+  },
+  {
+    "name": "Pristyn Care",
+    "slug": "pristyncare",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Surgical Care & Medical Tech Platform"
+  },
+  {
+    "name": "Curefit",
+    "slug": "curefit",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Fitness, Health & Nutrition Platform"
+  },
+  {
+    "name": "Bizongo",
+    "slug": "bizongo",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "B2B Custom Packaging & Supply Chain"
+  },
+  {
+    "name": "Cashfree",
+    "slug": "cashfree",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Payments & API Banking Infrastructure"
+  },
+  {
+    "name": "Perfios",
+    "slug": "perfios",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Financial Data Aggregation & Analytics"
+  },
+  {
+    "name": "Fibe",
+    "slug": "fibe",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Consumer Lending & Financial Tech"
+  },
+  {
+    "name": "KreditBee",
+    "slug": "kreditbee",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Digital Personal Lending Platform"
+  },
+  {
+    "name": "Rupeek",
+    "slug": "rupeek",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Asset-Backed Digital Lending Technology"
+  },
+  {
+    "name": "Open Financial",
+    "slug": "open",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Connected Banking Platform for SMEs"
+  },
+  {
+    "name": "Captain Fresh",
+    "slug": "captainfresh",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "B2B Seafood Supply Chain Platform"
+  },
+  {
+    "name": "Country Delight",
+    "slug": "countrydelight",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Direct-to-Consumer Fresh Food Supply"
+  },
+  {
+    "name": "Ninjacart",
+    "slug": "ninjacart",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Agritech B2B Supply Chain Network"
+  },
+  {
+    "name": "DeHaat",
+    "slug": "dehaat",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Full-Stack Agricultural Tech Services"
+  },
+  {
+    "name": "AgroStar",
+    "slug": "agrostar",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Direct-to-Farmer Agricultural Tech Platform"
+  },
+  {
+    "name": "Agnikul Cosmos",
+    "slug": "agnikul",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Aerospace & Private Satellite Launch Vehicles"
+  },
+  {
+    "name": "Skyroot Aerospace",
+    "slug": "skyroot",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Commercial Launch Vehicles & Space Tech"
+  },
+  {
+    "name": "Pixxel",
+    "slug": "pixxel",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Hyperspectral Earth Imaging Satellite Constellation"
+  },
+  {
+    "name": "Krutrim",
+    "slug": "krutrim",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "AI Foundation Models & Sovereign Cloud Infra"
+  },
+  {
+    "name": "Wingify / VWO",
+    "slug": "wingify",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "A/B Testing & Conversion Rate Optimization"
+  },
+  {
+    "name": "Hoppscotch",
+    "slug": "hoppscotch",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Open-Source API Development Ecosystem"
+  },
+  {
+    "name": "Bruno",
+    "slug": "usebruno",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Fast, Offline Git-Friendly API Client"
+  },
+  {
+    "name": "Dgraph Labs",
+    "slug": "dgraph",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Native Distributed GraphQL Database with Graph Backend"
+  },
+  {
+    "name": "ByteDance",
+    "slug": "bytedance",
+    "ats": "greenhouse",
+    "is_top_tier": false,
+    "domain": "Algorithmic Content Platforms & AI Systems"
+  },
+  {
+    "name": "Ramp",
+    "slug": "ramp",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Corporate Card & Finance Automation Platform"
+  },
+  {
+    "name": "Brex",
+    "slug": "brex",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Financial Operating System for High Growth Companies"
+  },
+  {
+    "name": "Deel",
+    "slug": "deel",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Global Payroll & Compliance Platform"
+  },
+  {
+    "name": "Remote",
+    "slug": "remote",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Global HR & Contractor Management Platform"
+  },
+  {
+    "name": "Rippling",
+    "slug": "rippling",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "Workforce Management & Core HR Systems"
+  },
+  {
+    "name": "Certa",
+    "slug": "certa",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Enterprise AI & Workflow Automation"
+  },
+  {
+    "name": "DevRev",
+    "slug": "devrev",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "AI-Native CRM & Developer Platform"
+  },
+  {
+    "name": "Arize AI",
+    "slug": "arizeai",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "LLM Evaluation & Observability Platform"
+  },
+  {
+    "name": "10a Labs",
+    "slug": "10alabs",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "AI Systems & Quantitative Infrastructure"
+  },
+  {
+    "name": "Etched",
+    "slug": "etched",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "AI Hardware & Transformer Acceleration"
+  },
+  {
+    "name": "Kognitos",
+    "slug": "kognitos",
+    "ats": "ashby",
+    "is_top_tier": true,
+    "domain": "Generative AI Automation & Enterprise Ops"
+  },
+  {
+    "name": "Haize Labs",
+    "slug": "haizelabs",
+    "ats": "greenhouse",
+    "is_top_tier": true,
+    "domain": "AI Safety, Red Teaming & LLM Alignment"
+  },
+  {
+    "name": "NPX",
+    "slug": "npx",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Cloud Platform & Compute Infrastructure"
+  },
+  {
+    "name": "Meshy",
+    "slug": "meshy",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Generative 3D AI Models & Infrastructure"
+  },
+  {
+    "name": "Omnis",
+    "slug": "omnis-corporation",
+    "ats": "rippling",
+    "is_top_tier": false,
+    "domain": "Cloud Security & Infrastructure Automation"
+  },
+  {
+    "name": "Circleback",
+    "slug": "circleback",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "AI Meeting & Note-Taking Assistant"
+  },
+  {
+    "name": "Bild AI",
+    "slug": "bild-ai",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Generative AI for Engineering Design"
+  },
+  {
+    "name": "Opus Clip",
+    "slug": "opusclip",
+    "ats": "ashby",
+    "is_top_tier": false,
+    "domain": "Generative AI Video Repurposing Platform"
+  },
+  {
+    "name": "InCred Financial",
+    "slug": "incred-financial",
+    "ats": "workable",
+    "is_top_tier": false,
+    "domain": "FinTech & Cloud Engineering"
+  },
+  {
+    "name": "Aerotime",
+    "slug": "aerotime",
+    "ats": "workable",
+    "is_top_tier": false,
+    "domain": "AI Calendar & Productivity Systems"
   }
 ]

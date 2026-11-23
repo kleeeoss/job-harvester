@@ -19,6 +19,7 @@ def parse_lever_payload(company_slug: str, data: Any) -> List[JobRequisition]:
         description_text = clean_text(description_raw)
 
         is_internship = bool(re.search(r'\b(interns?|internships?|co-op|trainee)\b', title, re.I))
+        posted_date = str(item.get("createdAt") or "")
 
         jobs.append(JobRequisition(
             id=job_id,
@@ -28,7 +29,8 @@ def parse_lever_payload(company_slug: str, data: Any) -> List[JobRequisition]:
             apply_url=apply_url,
             description_text=description_text,
             is_internship=is_internship,
-            ats="Lever"
+            ats="Lever",
+            posted_date=posted_date
         ))
     return jobs
 

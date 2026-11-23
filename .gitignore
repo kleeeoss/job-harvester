@@ -1,4 +1,30 @@
+# Python & Virtual Environments
 .venv/
+venv/
+ENV/
+env/
+**/__pycache__/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
 .pytest_cache/
+
+# Databases & SQLite WAL State
+harvester.db
+harvester.db-wal
+harvester.db-shm
+*.sqlite
+*.sqlite3
+
+# Reports & Output Artifacts
+reports/
+*.md.tmp
+
+# Code bundles & temporary dumps
+code_bundle*.txt
+*.bundle.txt
+
+# Environment variables & secrets
+.env*
+!.env.example

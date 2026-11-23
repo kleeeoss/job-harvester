@@ -40,3 +40,42 @@ def parse_workday_payload(company_slug: str, data: Dict[str, Any]) -> List[JobRe
         ats="Workday"
     ))
     return jobs
+
+async def fetch_workday_jobs(client: httpx.AsyncClient, company: Dict[str, Any]) -> List[JobRequisition]:
+    """
+    Fetches job listings from Workday Candidate Experience Services (CXS) API.
+    For each job, verifies jobPostingInfo.postingAvailable is True.
+    """
+    slug = company.get("slug", "")
+    api_url = company.get("api_url")
+    if not api_url:
+        return []
+
+    try:
+        payload = {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": ""}
+        res = await client.post(api_url, json=payload, timeout=10.0)
+        if res.status_code != 200:
+            return []
+
+        data = res.json()
+        job_postings = data.get("jobPostings", [])
+        jobs = []
+
+        base_detail_url = api_url.rstrip("/")
+        if base_detail_url.endswith("/jobs"):
+            base_detail_url = base_detail_url[:-5]
+
+        for item in job_postings:
+            ext_path = item.get("externalPath", "")
+            if not ext_path:
+                continue
+
+            detail_endpoint = f"{base_detail_url}{ext_path}"
+            detail_res = await client.get(detail_endpoint, timeout=8.0)
+            if detail_res.status_code == 200:
+                parsed = parse_workday_payload(slug, detail_res.json())
+                jobs.extend(parsed)
+
+        return jobs
+    except Exception:
+        return []

@@ -27,6 +27,25 @@ def test_ashby_resolver_parses_direct_requisitions():
     assert "modal/job_123" in job.apply_url
     assert not job.apply_url.endswith("/careers")
 
+def test_ashby_resolver_parses_secondary_locations():
+    mock_payload = {
+        "jobs": [
+            {
+                "id": "job_multi",
+                "title": "Software Engineer",
+                "location": "San Francisco",
+                "secondaryLocations": [{"location": "Bengaluru"}, {"location": "London"}],
+                "isRemote": True,
+                "applyUrl": "https://jobs.ashbyhq.com/modal/job_multi/application",
+                "descriptionHtml": "<p>Distributed systems.</p>"
+            }
+        ]
+    }
+    jobs = parse_ashby_payload("modal", mock_payload)
+    assert len(jobs) == 1
+    assert "Bengaluru" in jobs[0].location
+    assert "(Remote)" in jobs[0].location
+
 def test_greenhouse_resolver_parses_direct_requisitions():
     mock_payload = {
         "jobs": [
